@@ -42,8 +42,8 @@ generateTicketButton.addEventListener('click', function () {
 
   // * calcolo del prezzo del biglietto
   const ticketFare = 0.21;
-
   let ticketPrice = ticketFare * kmsValue;
+
   // * verifico se devo applicare lo sconto
   if (ageValue == 'kid') {
     // * applico lo sconto per minorenni
